@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="http://dorilexs.github.io">
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modaal.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <!--=================alerta js==============-->
+    <script src ="https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+    <title>Dorilexs Company</title>
+</head>
+<body>
+
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class="nav-logo">
+                <h2>Dorilexs</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Qualify</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar image -->
+                    <img src="assets/img/perfil (1).svg" id="pep" alt="Bolby">
+                    <!-- info -->
+                    <h1>Alex Llasa</h1>
+                    <span> Soy <span class="info-text">un desarollador Front-End</span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-twitter-original" target="_blank"></i></a></li>
+                        <li><a href="javascript:if (confirm('Quieres ir a Whatsapp?')) {parent.location='https://wa.link/2fppck';};"><i class="lni lni-whatsapp" target="_blank"></i></a></li>
+                        <li><a href= "javascript:if (confirm('Quieres ir a Facebook?')) {parent.location='https://www.facebook.com/david.alexs.90/';};" ><i class="lni lni-facebook-oval"></i></a></li>
+                        <li><a href="#contact"><i class="lni lni-wechat"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div >  <!--id="app"-->
+                        <!--class="mailtoui"-->  <a href="mailto:alexllasa123147@gmail.com" class="btn btn-default">Contratame</a>
+                    </div>
+                    <!-- scroll down mouse wheel -->
+                    <div class="scroll-down">
+                        <a href="#about" class="mouse-wrapper">
+                            <span>Ir hacia abajo</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Acerca de mí</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar img -->
+                        <img src="assets/img/perfil (1).svg" id="pepe" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- about text -->
+                                    <p>Soy Alex, estudiante de desarollo web de Arequipa, Perú. Tengo experiencia en el diseño, creación y personalización de sitios web, y también soy bueno en Linux..</p>
+                                    <div>
+                                        <a href="#" class="btn btn-default">Descargar CV</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>HTML & CSS</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>JAVASCRIPT</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%; background: rgb(255,76,96);"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>PHP</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%; background: rgb(108,108,229);"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>50</h3>
+                            <p>Projectos listos</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-coffee-cup"></i>
+                        <div class="details">
+                            <h3>10</h3>
+                            <p>Apoyo recibido</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-users"></i>
+                        <div class="details">
+                            <h3>68</h3>
+                            <p>clientes Satisfechos</p>
+                        </div>
+                    </div>
+                    <!-- fact item -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-cup"></i>
+                        <div class="details">
+                            <h3>28</h3>
+                            <p>Proyectos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Services ===============-->
+        <section class="services section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Servicios</h2>
+                <div class="row">
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(108,108,229);">
+                     
+                            <a href="https://wa.link/65aven" target="_blank"> <img src="assets/img/service-2.svg" alt="Smiley face"></a><!-- <figure><figcaption>¡click!</figcaption></figure>-->
+                            <h3>Desarollo Web</h3>
+                            <p>¡El arte para mi es hacer brillar tu negocio con un excelente sitio web! Diseño paginas web desde cero, sin nada de CMS puros codigos, muy confiable 100% seguro y un buen precio.</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(249,215,76);">
+                        <a href="https://wa.link/65aven" target="_blank"> <img src="assets/img/darded.svg" id=woodle alt=""></a> <!--<figure></figure><figcaption>¡click!</figcaption></figure>-->
+                            <h3>Asesor tramites Migratorios</h3>
+                            <p>Hago todo tipos de tramites migratorios, para aquellos que quieren regularizarse les puedo ayudar.100% solo Chile</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner"style="background: rgb(249,123,139);">
+                        <a href="https://wa.link/65aven" target="_blank">  <img src="assets/img/settings.svg"id=hola alt=""></a><!-- <figure></figure><figcaption>¡click!</figcaption></figure> -->
+                            <h3>Instalaciones</h3>
+                            <p>instalaciones de todos tipos de sistemas operativos, Linux, MACos, Windows y actualizaciones y degradaciones del sistema operativo...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>¿Buscas un trabajo, Personalizado? <a href="https://wa.link/2fppck" target="_blank">Haz Click aquí</a> para contactarme! 👋</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience ===============-->
+        <section class="section" id="experience">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Experiencias</h2>
+                <div class="row">
+                    <!-- education -->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2019
+                                        </h3>
+                                        <h3 class="timeline-title">Middle education</h3>
+                                        <p class="timeline-text">Durante mi adolescencia crecí viendo cómo amaba mucho las computadoras, y el amor que tenia para ellas.</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020
+                                        </h3>
+                                        <h3 class="timeline-title">Master in Computer</h3>
+                                        <p class="timeline-text">Soy una persona entusiasta, me encanta aprender cosas nuevas, y desarollar mis conocimientos.Cada día aprendo cosas nuevas y eso me ayuda a desarollar más mis capacidades.</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - presente
+                                        </h3>
+                                        <h3 class="timeline-title">academic license</h3>
+                                        <p class="timeline-text">loading........</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- experience -->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Web Designer</h3>
+                                        <p class="timeline-text">Un año de experiencia en crear y desarollar sitios web, y diversas cosas más.</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">Front-End Developer</h3>
+                                        <p class="timeline-text">Usamos tecnologías como HTML, CSS, y javaScript trabajomos con mucho amor y pasion para brindarles el mejor servicio posible.</p>
+                                    </div>
+                                     <!-- timeline item -->
+                                     <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">Back-End Developer</h3>
+                                        <p class="timeline-text">Usamos diversas tecnologías como php, javascript y de vez en cuando Usamos librerías con el objetivo de que el cliente este totalmente satisfecho. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pricing ===============-->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Calificarnos</h2>
+                <div class="row">
+                    <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-1.svg" alt="">
+                            <h3 class="plan">⭐⭐</h3>
+                            <p>Buen contenido rey un poco basico pero sigue asi y lucha por tus sueños..</p>
+                            <p>¡Sos lo maximo!</p>
+                            <h3 class="price"><em>$</em>5</h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item best">
+                            <span class="badge">Thank's</span>
+                            <img src="assets/img/Christmas giveaway-amico.svg" id=sa alt="">
+                            <h3 class="plan">⭐⭐⭐</h3>
+                            <p>Excelente pagina sigue asi. Excelente diseño, Excelente Trabajo.</p>
+                            <p>¡Sos lo mejor!</p>
+                            <h3 class="price"><em>$</em>7</h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-3.svg" alt="">
+                            <h3 class="plan">⭐⭐⭐⭐</h3>
+                            <p> Lo mejor que he visto, me encanto mucho.</p>
+                            <p> 10/10 todo chevere. Tienes habilidades y destrezas </p>
+                            <h3 class="price"><em>$</em>10<span></span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Portfolio ===============-->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Portfolio</h2>
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                            <button type="button" class="active" data-filter="all">Todo</button>
+                            <button type="button" data-filter="art">Diseños</button>
+                            <button type="button" data-filter="creative">Creatividad</button>
+                            <button type="button" data-filter="design">Juego</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- portfolio item -->
+                    <div class="portfolio-item padd-15" data-category="art">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/Chat bot-pana.svg" alt="">
+                                <div class="mask">                              
+                                </div>
+                            </div>
+                            <span class="term">Diseños</span>
+                            <h3 class="portfolio-item-title">Projecto de Chat Bot</h3>
+                            <span class="more-button" onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="creative">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/Design stats-bro.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Creatividad</span>
+                            <h3 class="portfolio-item-title">Dashboard de registro</h3>
+                            <span class="more-button"onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="design">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/Gaming-amico.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Juego</span>
+                            <h3 class="portfolio-item-title">Projecto de crear un Juego</h3>
+                            <span class="more-button"onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="creative">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/Cellphone-pana.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Creatividad</span>
+                            <h3 class="portfolio-item-title"> Proyecto Aplicación móvil</h3>
+                            <span class="more-button"onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="art">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/In no time-pana.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Creatividad</span>
+                            <h3 class="portfolio-item-title">Proyecto Tienda en linea</h3>
+                            <span class="more-button"onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                     <!-- portfolio item -->
+                     <div class="portfolio-item padd-15" data-category="creative">
+                        <div class="portfolio-item-inner">
+                            <div class="portfolio-item-thumbnail">
+                                <img src="assets/img/Virtual reality-amico.svg" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Diseño</span>
+                            <h3 class="portfolio-item-title">Proyecto de Chat Realidad virtual</h3>
+                            <span class="more-button"onclick="javascript:swal('Esta sección estara disponible pronto!!');">&hellip;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Testimonial ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Clientes & Reviews</h2>
+                <!-- testimonial wrapper -->
+                <div class="swiper testimonial-wrapper">
+                    <div class="swiper-wrapper">
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-3.svg" alt="">
+                            </div>
+                            <h3>Steeves</h3>
+                            <span class="subtitle">Cliente</span>
+                            <div class="comment">Ustedes hacen que el proceso sea divertido e interesante. ¡Buena suerte! 👍</div>
+                        </div>
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-1.svg" alt="">
+                            </div>
+                            <h3>Gabriel</h3>
+                            <span class="subtitle">Cliente</span>
+                            <div class="comment">Exenlente Servicio, me ha encantado mucho 🔥</div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Blog ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Team & Blog</h2>
+                <div class="row">
+                    <!-- blog item -->
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Reviews</span></a>
+                                <video width="350" height="230" loop="true" muted autoplay >
+                                    <source src="assets/img/youngstars-3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#blog"onclick="javascript:swal('Esta sección estara disponible pronto!!');">¿como hacer presentaciones asi?</a></h3>
+                                <ul class="meta">
+                                    <li> Diciembre, 2021</li>
+                                    <li>Dorilexs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item -->
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Business</span></a>
+                                <video width="350" height="230" loop="true" muted autoplay >
+                                    <source src="assets/img/youngstars.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#blog"onclick="javascript:swal('Esta sección estara disponible pronto!!');">Acerca de Dorilexs Team</a></h3>
+                                <ul class="meta">
+                                    <li>Diciembre, 2021</li>
+                                    <li>Dorilexs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog item -->
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="#"><span class="category">Business</span></a>
+                                <video width="350" height="230" loop="true" muted autoplay >
+                                    <source src="assets/img/youngstars-2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="#blog" onclick="javascript:swal('Esta sección estara disponible pronto!!', );">Iniciar un negocio en 3 pasos</a></h3>
+                                <ul class="meta">
+                                    <li>09 noviembre, 2021</li>
+                                    <li>Dorilexs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Contact ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Contactos</h2>
+                <div class="row">
+                    <!-- contact box -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Llámanos para soporte..</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    +(51) 914 586 418
+                                </span>
+                            </div>
+                             <!-- contact information -->
+                             <div class="contact-information">
+                                <h3 class="contact-subtitle">Escribenos por correo</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    alexllasa123147@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact form -->
+
+                    <form action="https://getform.io/f/6dfc5b67-3ef7-4a39-b027-5b24381b5fb0" method="POST"  class="contact-form padd-15">
+                        <div class="contact-inputs">
+                             <!-- contact content -->
+                             <div class="contact-content">
+                                <input type="text" class="contact-input" name="name" required="">
+                                <label for="nombre" id="nombre" class="contact-label">Nombres</label>
+                                <span></span>
+                             </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input" name="email" required="">
+                                <label for="correo" id="correo" class="contact-label">Email</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input" name="tema" required="">
+                                <label for="tema" id="tema" class="contact-label">Tema</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea cols="30" rows="10" class="contact-input" name="mensaje"></textarea>
+                                <label for="mensaje" id="mensaje" class="contact-label">Mensaje</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <input type="submit"  class="btn btn-default" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== Footer ===============-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; Dorilexs</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--=============== Theme Customize ===============-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Personaliza tu vista</h2>
+            <p>Personaliza su tamaño de fuente, color y fondo</p>
+            <!-- font size -->
+            <div class="font-size">
+                <h3>Tamaño de fuente</h3>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- color -->
+            <div class="color">
+                <h3>Color</h3>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3 active"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="background">
+                <h3>Fondo</h3>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Claro</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Medio Oscuro</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Oscuro</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/alert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/modaal.js"></script>
+<!--=============== cursor ===============-->
+<style type="text/css">body, a, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur125.cur), progress;}</style>
+
+  
+<!--el email-->
+<script>"https://code.jquery.com/jquery-3.6.0.min.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/mailtoui@1.0.3/dist/mailtoui-min.js"></script>
+    
+  <!--loading no funciona sin el link de ajax-->
+  <script>$(window).load(function(){
+    $('#page-loader').fadeOut(2000);
+  });
+  </script>
+  <!--loading terminal-->
+  <body>
+   <div id="page-loader"><span class="preloader-interior"></span></div>
+  </script>
+
+  <!-- <script src="https://apps.elfsight.com/p/platform.js" defer=""></script> -->
+<div class="elfsight-app-2ee50d5d-65c2-4292-ba90-6abed73873a3"></div>
+</body>
+</html>
